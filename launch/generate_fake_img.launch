@@ -1,0 +1,7 @@
+<launch>
+    <node name="generate_fake_img" pkg="test_rosbagio" type="generateFakeImg.py" output="screen" >
+        <param name="img_height" value="1208" />
+        <param name="img_width" value="1920" />
+        <param name="fps" value="30" />
+    </node>
+</launch>
